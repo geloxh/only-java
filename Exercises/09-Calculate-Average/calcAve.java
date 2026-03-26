@@ -7,7 +7,7 @@ public class calcAve {
             int[] numbers = new int[count];
             double average = 0;
 
-            for (int i = 0; i < count; i++) {
+            for (int i = 0; i < count; i++) {   
                 System.out.print("Enter the " + (i + 1) + ". number : ");
                 numbers[i] = scn.nextInt();
                 average += numbers[i];
