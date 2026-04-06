@@ -1,5 +1,6 @@
 public class BooleanMatrix {
 
+	/* If any cell in a matrix is 1, make its entire row and column 1. */
 	public static void modifyBooleanMatrix(int[][] a) {
 
 		int rowFlag = 0, columnFlag = 0;
